@@ -56,7 +56,7 @@ export default function Testimonials() {
         <div className="max-w-2xl mx-auto">
           <div className="bg-zinc-900/50 rounded-xl p-8 relative">
             <div className="flex items-center gap-4 mb-4">
-              <Avatar className="h-12 w-12 bg-[#6C5CE7]">
+              <Avatar className="h-12 w-12 bg-[#f59e0b]">
                 <AvatarFallback>{testimonials[currentIndex].avatar}</AvatarFallback>
               </Avatar>
               <div>
@@ -67,7 +67,7 @@ export default function Testimonials() {
             
             <div className="flex mb-4">
               {[...Array(5)].map((_, i) => (
-                <Star key={i} className="w-4 h-4 fill-[#6C5CE7] text-[#6C5CE7]" />
+                <Star key={i} className="w-4 h-4 fill-[#f59e0b] text-[#f59e0b]" />
               ))}
             </div>
 

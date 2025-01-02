@@ -9,7 +9,7 @@ export default function Rating() {
         {[...Array(3)].map((_, i) => (
           <Star
             key={i}
-            className="w-4 h-4 fill-[#6C5CE7] text-[#6C5CE7]"
+            className="w-4 h-4 fill-[#f59e0b] text-[#f59e0b]"
           />
         ))}
       </div>

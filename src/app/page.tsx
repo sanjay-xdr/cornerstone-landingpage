@@ -20,7 +20,7 @@ export default function Page() {
             <div className="space-y-8">
               <h1 className="text-5xl font-bold tracking-tight lg:text-6xl">
                 Streamline Your{' '}
-                <span className="text-[#6C5CE7]">
+                <span className="text-[#f59e0b]">
                   Browser Workflow
                 </span>
               </h1>
@@ -33,7 +33,7 @@ export default function Page() {
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button 
                   size="lg"
-                  className="bg-[#6C5CE7] hover:bg-[#6C5CE7]/90"
+                  className="bg-[#f59e0b] hover:bg-[#f59e0b]/90"
                 >
                  <a href="https://chromewebstore.google.com/detail/cornerstone/eiblcdbfflafafgokjoeighgdpclhepd" target="_blank" rel="noopener noreferrer"> Add to Chrome</a>
                 </Button>

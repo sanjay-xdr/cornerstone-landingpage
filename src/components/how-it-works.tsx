@@ -40,7 +40,7 @@ export default function HowItWorks() {
 
         <div className="relative max-w-3xl mx-auto">
           {/* Vertical line */}
-          <div className="absolute left-4 top-0 bottom-0 w-0.5 bg-[#6C5CE7] md:left-1/2 md:-translate-x-0.5" />
+          <div className="absolute left-4 top-0 bottom-0 w-0.5 bg-[#f59e0b] md:left-1/2 md:-translate-x-0.5" />
 
           {/* Steps */}
           <div className="space-y-16">
@@ -49,7 +49,7 @@ export default function HowItWorks() {
                 index % 2 === 0 ? 'md:flex-row-reverse' : ''
               }`}>
                 {/* Number indicator */}
-                <div className="absolute left-0 w-8 h-8 rounded-full bg-[#6C5CE7] flex items-center justify-center text-sm font-medium text-white md:left-1/2 md:-translate-x-1/2">
+                <div className="absolute left-0 w-8 h-8 rounded-full bg-[#f59e0b] flex items-center justify-center text-sm font-medium text-white md:left-1/2 md:-translate-x-1/2">
                   {step.number}
                 </div>
 
@@ -70,7 +70,7 @@ export default function HowItWorks() {
           <div className="mt-16 text-center">
             <Button 
               size="lg"
-              className="bg-[#6C5CE7] hover:bg-[#6C5CE7]/90"
+              className="bg-[#f59e0b] hover:bg-[#f59e0b]/90"
             >
               Get Started Now
             </Button>

@@ -66,8 +66,8 @@ export default function WhyChoose() {
         <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto mb-16">
           {benefits.map((benefit, index) => (
             <div key={index} className="flex gap-4 items-start">
-              <div className="w-10 h-10 rounded-lg bg-[#6C5CE7]/10 flex items-center justify-center flex-shrink-0">
-                <benefit.icon className="w-5 h-5 text-[#6C5CE7]" />
+              <div className="w-10 h-10 rounded-lg bg-[#f59e0b]/10 flex items-center justify-center flex-shrink-0">
+                <benefit.icon className="w-5 h-5 text-[#f59e0b]" />
               </div>
               <div>
                 <h3 className="font-semibold mb-2">{benefit.title}</h3>
@@ -80,7 +80,7 @@ export default function WhyChoose() {
         <div className="grid grid-cols-3 gap-8 max-w-2xl mx-auto">
           {stats.map((stat, index) => (
             <div key={index} className="text-center">
-              <div className="text-3xl font-bold text-[#6C5CE7] mb-2">{stat.value}</div>
+              <div className="text-3xl font-bold text-[#f59e0b] mb-2">{stat.value}</div>
               <div className="text-sm text-muted-foreground">{stat.label}</div>
             </div>
           ))}
