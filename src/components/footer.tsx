@@ -6,7 +6,7 @@ import { Button } from '@/components/ui/button'
 export default function Footer() {
   return (
     <footer className="bg-background border-t">
-      <div className="container px-4 py-12">
+      <div className="container px-4 py-12 ">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           <div className="col-span-2 md:col-span-1">
             <Link href="/" className="text-xl font-bold mb-4 block">
@@ -16,8 +16,8 @@ export default function Footer() {
               Streamline your browser workflow and boost productivity with our smart Chrome extension.
             </p>
           </div>
-          
-          <div>
+
+          <div >
             <h3 className="font-semibold mb-4">Product</h3>
             <ul className="space-y-2">
               <li>
@@ -32,21 +32,8 @@ export default function Footer() {
               </li>
             </ul>
           </div>
-          
-          <div>
-            <h3 className="font-semibold mb-4">Company</h3>
-            <ul className="space-y-2">
-              <li>
-                <Link href="/about" className="text-sm text-muted-foreground hover:text-foreground">
-                  About
-                </Link>
-              </li>
-            </ul>
-          </div>
-          
-        
         </div>
-        
+
         <div className="border-t mt-12 pt-8 flex flex-col flex-row justify-between items-center gap-4">
           <div className="text-sm text-muted-foreground">
             © 2025 CornerStone. All rights reserved.

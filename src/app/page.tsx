@@ -6,7 +6,6 @@ import Rating from '@/components/rating'
 import Features from '@/components/features'
 import HowItWorks from '@/components/how-it-works'
 import WhyChoose from '@/components/why-choose'
-import Testimonials from '@/components/testimonials'
 import Footer from '@/components/footer'
 import { Button } from '@/components/ui/button'
 
@@ -36,13 +35,13 @@ export default function Page() {
                   size="lg"
                   className="bg-[#6C5CE7] hover:bg-[#6C5CE7]/90"
                 >
-                 <a href="http://" target="_blank" rel="noopener noreferrer"> Add to Chrome</a>
+                 <a href="https://chromewebstore.google.com/detail/cornerstone/eiblcdbfflafafgokjoeighgdpclhepd" target="_blank" rel="noopener noreferrer"> Add to Chrome</a>
                 </Button>
                 <Button 
                   size="lg"
                   variant="outline"
                 >
-                    <a href="http://" target="_blank" rel="noopener noreferrer"> Watch Demo</a>
+                <a href="https://youtu.be/AGoLznh73GM" target="_blank" rel="noopener noreferrer"> Watch Demo</a>
                 </Button>
               </div>
               
