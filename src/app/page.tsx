@@ -1,7 +1,6 @@
 'use client'
 
 import NavBar from '@/components/nav-bar'
-import BrowserMockup from '@/components/browser-mockup'
 import Rating from '@/components/rating'
 import Features from '@/components/features'
 import HowItWorks from '@/components/how-it-works'
@@ -16,7 +15,7 @@ export default function Page() {
         <NavBar />
         
         <main className="container max-w-7xl mx-auto pt-32 pb-16 px-4">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
+          <div className="">
             <div className="space-y-8">
               <h1 className="text-5xl font-bold tracking-tight lg:text-6xl">
                 Streamline Your{' '}
@@ -48,9 +47,7 @@ export default function Page() {
               <Rating />
             </div>
             
-            <div className="lg:block">
-              <BrowserMockup />
-            </div>
+    
           </div>
         </main>
         <Features />

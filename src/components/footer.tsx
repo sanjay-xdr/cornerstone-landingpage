@@ -9,7 +9,7 @@ export default function Footer() {
       <div className="container px-4 py-12 ">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           <div className="col-span-2 md:col-span-1">
-            <Link href="/" className="text-xl font-bold mb-4 block">
+            <Link href="https://chromewebstore.google.com/detail/cornerstone/eiblcdbfflafafgokjoeighgdpclhepd" className="text-xl font-bold mb-4 block">
               CornerStone
             </Link>
             <p className="text-sm text-muted-foreground">
