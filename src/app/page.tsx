@@ -36,13 +36,13 @@ export default function Page() {
                   size="lg"
                   className="bg-[#6C5CE7] hover:bg-[#6C5CE7]/90"
                 >
-                  Add to Chrome
+                 <a href="http://" target="_blank" rel="noopener noreferrer"> Add to Chrome</a>
                 </Button>
                 <Button 
                   size="lg"
                   variant="outline"
                 >
-                  Watch Demo
+                    <a href="http://" target="_blank" rel="noopener noreferrer"> Watch Demo</a>
                 </Button>
               </div>
               
@@ -57,7 +57,6 @@ export default function Page() {
         <Features />
         <HowItWorks />
         <WhyChoose />
-        <Testimonials />
         <Footer />
       </div>
     </div>

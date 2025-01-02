@@ -14,7 +14,7 @@ export default function Rating() {
         ))}
       </div>
       <span className="text-sm text-muted-foreground">
-        4.8/5 rating from 1000+ users
+        4.4/5 rating from 10+ users
       </span>
     </div>
   )

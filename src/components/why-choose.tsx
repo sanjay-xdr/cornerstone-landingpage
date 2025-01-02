@@ -37,15 +37,15 @@ const benefits = [
 
 const stats = [
   {
-    value: "500+",
+    value: "20+",
     label: "Active Users"
   },
   {
-    value: "1000+",
-    label: "Tasks Completed"
+    value: "7",
+    label: "Review"
   },
   {
-    value: "4.8/5",
+    value: "4.4/5",
     label: "User Rating"
   }
 ]

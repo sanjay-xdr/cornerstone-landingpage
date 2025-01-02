@@ -30,7 +30,7 @@ export default function HowItWorks() {
     <section className="py-24 bg-zinc-950" id="how-it-works">
       <div className="container px-4">
         <div className="text-center mb-16">
-          <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mb-4">
+          <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mb-4 text-white">
             How It Works
           </h2>
           <p className="text-xl text-muted-foreground">
@@ -58,7 +58,7 @@ export default function HowItWorks() {
                   index % 2 === 0 ? 'md:pr-16' : 'md:pl-16'
                 }`}>
                   <div className="bg-zinc-900/50 p-6 rounded-lg">
-                    <h3 className="text-xl font-semibold mb-2">{step.title}</h3>
+                    <h3 className="text-xl font-semibold mb-2 text-white">{step.title}</h3>
                     <p className="text-muted-foreground">{step.description}</p>
                   </div>
                 </div>
